@@ -31,6 +31,5 @@ case operation
 of "+": echo $addition(num1, num2)
 of "-": echo $subtraction(num1, num2)
 of "*": echo $multiplication(num1, num2)
-of "/": echo $division(num1, num2)
-of ":": echo $division(num1, num2)
+of "/", ":": echo $division(num1, num2)
 else: echo "No such operation"
