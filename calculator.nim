@@ -23,9 +23,9 @@ func multiplication(a: string, b: string): int =
     let nums = inputToInt(a, b)
     return nums[0]*nums[1]
 
-func division(a: string, b: string): int =
+func division(a: string, b: string): float =
     let nums = inputToInt(a, b)
-    return toInt(nums[0]/nums[1])
+    return nums[0]/nums[1]
 
 case operation
 of "+": echo $addition(num1, num2)
